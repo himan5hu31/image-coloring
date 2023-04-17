@@ -6,12 +6,9 @@ This project requires the following libraries:
 
 Python 3.x\
 TensorFlow 2.x\
-NumPy\
-Matplotlib\
 skimage\
 PIL\
 Streamlit\
-pandas\
 These libraries can be easily installed using pip or conda package manager.
 
 ### Dataset
