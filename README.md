@@ -12,7 +12,7 @@ Streamlit\
 These libraries can be easily installed using pip or conda package manager.
 
 ### Dataset
-The project uses the Kaggle Landscape Pictures dataset, which can be downloaded from the following link: https://www.kaggle.com/arnaud58/landscape-pictures.\
+The project uses the Kaggle Landscape Pictures dataset, which can be downloaded from the following link: [https://www.kaggle.com/datasets/arnaud58/landscape-pictures](datasets)
 
 The dataset contains 10,000 grayscale images and their corresponding colored images. The grayscale images are of size 256x256 pixels, while the colored images are of size 512x512 pixels.
 
