@@ -1,4 +1,4 @@
-# Image Coloring with Encoder-Decoder CNN based Deep Learning Model Streamlit-based Webapp
+# Image Coloring with Encoder-Decoder CNN based Deep Learning Model & Streamlit-based Web app
 This project aims to develop an image coloring system that can color grayscale images using a deep learning encoder-decoder CNN model. The model is trained on the Kaggle Landscape Pictures dataset, which contains grayscale landscape images and their corresponding colored images. A web application is then created using Streamlit, which allows users to upload their own grayscale images and colorize them using the trained model.
 
 ### Requirements
