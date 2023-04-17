@@ -12,17 +12,21 @@ Streamlit\
 These libraries can be easily installed using pip or conda package manager.
 
 ### Dataset
-The project uses the Kaggle Landscape Pictures dataset, which can be downloaded from the following link: [https://www.kaggle.com/datasets/arnaud58/landscape-pictures](datasets)
+The project uses the Kaggle Landscape Pictures dataset, which can be downloaded from the following link: [dataset](https://www.kaggle.com/datasets/arnaud58/landscape-pictures)
 
 The dataset contains 10,000 grayscale images and their corresponding colored images. The grayscale images are of size 256x256 pixels, while the colored images are of size 512x512 pixels.
+![image](https://user-images.githubusercontent.com/130960032/232438388-6278b2d2-5d57-4a78-b3eb-c7d5672bfcc5.png)
 
 ### Model Architecture
 The model architecture used in this project is an encoder-decoder CNN model. The encoder is a convolutional neural network, which extracts features from the input grayscale image. The decoder is another convolutional neural network, which uses the extracted features to generate the output colored image. The model is trained using the Mean Squared Error (MSE) loss function and the Adam optimizer.
+#### Results
+ ![image](https://user-images.githubusercontent.com/130960032/232438743-5d65890d-8a80-4716-a2c1-2db4f10601e4.png)
+
 
 #### Usage
-To train the model, run the abovejupyter notebook file and save the model
+To train the model, run the above jupyter notebook file and save the model
 
-#### streamlit web application
+## streamlit web application
 streamlit run app.py
 The web application will be launched in the default web browser, and users can upload their own grayscale images and colorize them using the trained model.
 
